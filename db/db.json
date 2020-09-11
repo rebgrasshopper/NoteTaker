@@ -1,0 +1,20 @@
+[
+    {
+        "routeName": "examplenote",
+        "title": "How it works",
+        "text": "Here's a note! It's easy to do. Just click then pencil icon in the upper right hand corner, and write! When you're done, press the save icon. If you don't need a note any more, press the delete next to it and it's gone! Happy note taking!",
+        "id": "2020-09-10T17:19:28-07:00"
+    },
+    {
+        "title": "New New",
+        "text": "Note",
+        "routeName": "newnew",
+        "id": "2020-09-10T17:59:40-07:00"
+    },
+    {
+        "title": "Here is a note",
+        "text": "Another one",
+        "routeName": "hereisanote",
+        "id": "2020-09-10T18:12:41-07:00"
+    }
+]
