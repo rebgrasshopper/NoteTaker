@@ -22,8 +22,10 @@ app.get("/", function(req, res) {
 });
 
 app.get("/notes", function(req, res) {
-    res.sendFile(path.join(__dirname, "public/notes.html"));
     notes = JSON.parse(fs.readFileSync(path.join(__dirname, "/db/db.json"), { encoding:'utf8'}));
+    
+    res.sendFile(path.join(__dirname, "public/notes.html"));
+
 console.log(notes);
 });
 
